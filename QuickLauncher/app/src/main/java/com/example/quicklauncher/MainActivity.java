@@ -3,6 +3,7 @@ package com.example.quicklauncher;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -16,8 +17,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Find and declare names for all buttons used
-        Button secondActivityBtn = (Button) findViewById(R.id.secondActivityBtn);
-        Button googleSearchBtn = (Button) findViewById(R.id.googleBtn);
+        Button secondActivityBtn = findViewById(R.id.secondActivityBtn);
+        Button googleSearchBtn = findViewById(R.id.googleBtn);
+
 
         secondActivityBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,12 +39,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String googleLink = "http://www.google.com";
                 Uri webAddress =  Uri.parse(googleLink);
+//                Log.d("Log", "Reached here!");
 
                 // Intent for opening google search page
                 Intent goToGoogle = new Intent(Intent.ACTION_VIEW, webAddress);
                 // Check if it is possible find an application to open the URL, if yes, do so
-                if (goToGoogle.resolveActivity(getPackageManager()) != null)
+                if (goToGoogle.resolveActivity(getPackageManager()) == null)
                 {
+                    Log.d("Log", "Trying to open URL...");
                     startActivity(goToGoogle);
                 }
             }

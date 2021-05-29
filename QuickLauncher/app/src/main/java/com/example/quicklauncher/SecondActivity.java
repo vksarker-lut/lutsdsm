@@ -15,7 +15,7 @@ public class SecondActivity extends AppCompatActivity {
         if (getIntent().hasExtra("com.example.quicklauncher.SOMETHING"))
         {
             // Get the TextView in second activity
-            TextView tv = (TextView) findViewById(R.id.textView);
+            TextView tv = findViewById(R.id.textView);
             // Retrieve the text value which is sent from the main activity
             String text = getIntent().getExtras().getString("com.example.quicklauncher.SOMETHING");
             // Set the TextView with received value from the main activity
