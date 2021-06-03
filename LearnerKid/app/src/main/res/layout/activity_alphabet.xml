@@ -9,7 +9,7 @@
     <TextView
         android:id="@+id/textViewConsonents"
         android:layout_width="352dp"
-        android:layout_height="170dp"
+        android:layout_height="110dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="43dp"
         android:text="TextView"
@@ -18,8 +18,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewVowels"
-        app:layout_constraintVertical_bias="0.381" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView3"
@@ -36,7 +36,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.591" />
+        app:layout_constraintVertical_bias="0.466" />
 
     <TextView
         android:id="@+id/textView2"
@@ -53,7 +53,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.404" />
+        app:layout_constraintVertical_bias="0.299" />
 
     <TextView
         android:id="@+id/textViewVowels"
@@ -67,14 +67,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewAlphabet"
-        app:layout_constraintVertical_bias="0.166" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="376dp"
         android:layout_height="34dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="42dp"
         android:text="Alphabet"
         android:textColor="#673AB7"
@@ -90,7 +91,7 @@
     <TextView
         android:id="@+id/textViewAlphabet"
         android:layout_width="352dp"
-        android:layout_height="170dp"
+        android:layout_height="110dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="40dp"
         android:text="TextView"
@@ -99,6 +100,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.133" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
