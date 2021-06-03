@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Learner Kid</string>
+    <string name="heading">Topics</string>
+
+    <string-array name="topics">Topics
+        <item>Alphabet</item>
+        <item>Mathematics</item>
+        <item>Fruits</item>
+        <item>Vegetables</item>
+    </string-array>
+
+    <string-array name="descriptions">Topics
+        <item>Learn complete alphabet in English</item>
+        <item>Learn addition, subtraction, multiplication and division</item>
+        <item>See five common fruits</item>
+        <item>See five common vegetables</item>
+    </string-array>
+
+    <string name="alphabet">A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z</string>
+    <string name="vowels">A  E  I  O  U</string>
+    <string name="consonants">B  C  D  F  G  H  J  K  L  M  N  P  Q  R  S  T  V  W  X  Y  Z</string>
+
+    <string-array name="fruits">
+        <item>Apple</item>
+        <item>Orange</item>
+        <item>Banana</item>
+        <item>Grapes</item>
+        <item>Mango</item>
+    </string-array>
+
+    <string-array name="vegetables">
+        <item>Potato</item>
+        <item>Tomato</item>
+        <item>Cucumber</item>
+        <item>Spinach</item>
+        <item>Pumpkin</item>
+    </string-array>
+
+    <string-array name="fruits_details">
+        <item>An apple is an edible fruit produced by an apple tree (Malus domestica). Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus.</item>
+        <item>The orange is the fruit of various citrus species in the family Rutaceae, it primarily refers to Citrus sinensis, which is also called sweet orange.</item>
+        <item>A banana is an elongated, edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.</item>
+        <item>A grape is a fruit, botanically a berry, of the deciduous woody vines of the flowering plant genus Vitis. Grapes can be eaten fresh or can be used for making wine, jam, grape juice, jelly.</item>
+        <item>A mango is an edible stone fruit produced by the tropical tree Mangifera indica which is believed to have originated from the region between northwestern Myanmar, Bangladesh, and northeastern India.</item>
+    </string-array>
+
+    <string-array name="vegetables_details">
+        <item>The potato is a root vegetable native to the Americas, a starchy tuber of the plant Solanum tuberosum, and the plant itself is a perennial in the nightshade family.</item>
+        <item>The tomato is the edible berry of the plant Solanum lycopersicum, commonly known as a tomato plant. The species originated in western South America and Central America.</item>
+        <item>Cucumber (Cucumis sativus) is a widely-cultivated creeping vine plant in the Cucurbitaceae gourd family that bears cucumiform fruits, which are used as vegetables.</item>
+        <item>Spinach (Spinacia oleracea) is a leafy green flowering plant native to central and western Asia. Cartoon character Popeye\'s favorite food!</item>
+        <item>A pumpkin is a cultivar of winter squash that is round with smooth, slightly ribbed skin, and is most often deep yellow to orange in coloration. The thick shell contains the seeds and pulp.</item>
+    </string-array>
+    
+</resources>
