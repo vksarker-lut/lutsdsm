@@ -3,7 +3,6 @@ package com.example.learnerkid;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -36,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         myListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Log.d("Log", "Position: " + position); //Debug purpose
+//                Log.d("Log", "Position: " + position); //Debug purpose
 
                 switch (position) {
                     case 0:
@@ -55,6 +54,11 @@ public class MainActivity extends AppCompatActivity {
                         Intent showFruitVegActivity = new Intent(getApplicationContext(), FruitVegActivity.class);
                         showFruitVegActivity.putExtra("com.example.learnerkid.POSITION", position);
                         startActivity(showFruitVegActivity);
+                        break;
+                    case 4:
+                        // Take a test
+                        Intent showTestActivity = new Intent(getApplicationContext(), TestActivity.class);
+                        startActivity(showTestActivity);
                         break;
                     default:
                         // Nothing happens here
