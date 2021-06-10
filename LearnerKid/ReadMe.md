@@ -1,8 +1,8 @@
 # Learner Kid
-## Name: Victor Sarker
+## Author: Victor Sarker
 
 ## Description: 
-### 'Learner Kid' is an android application for kids to learn about alphabet, fruits and vegetables.
+### 'Learner Kid' is an android application for kids to learn about alphabet, mathematics, fruits and vegetables.
 
 
 Upon launching the application, the application shows the menu in which 'Alphabet',
