@@ -120,34 +120,7 @@ public class TestActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(showTestReportActivity);
         }
     }
-
-//    public void showTestReport(View view) {
-//
-//        // Inflate the layout of the popup window
-//        LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
-//        View viewReport = inflater.inflate(R.layout.my_test_report, null);
-//
-//        int width = LinearLayout.LayoutParams.WRAP_CONTENT;
-//        int height = LinearLayout.LayoutParams.WRAP_CONTENT;
-//
-//        final PopupWindow popupWindowTestReport = new PopupWindow(viewReport, width, height);
-//
-//
-//        // Show the test report popup window
-//        popupWindowTestReport.showAtLocation(view, Gravity.CENTER, 0, 0);
-//
-//
-//
-////        Button buttonCloseReport = findViewById(R.id.buttonCloseReport);
-////        buttonCloseReport.setOnClickListener(new View.OnClickListener() {
-////            @Override
-////            public void onClick(View v) {
-////                Intent showMainActivity = new Intent(getApplicationContext(), MainActivity.class);
-////                startActivity(showMainActivity);
-////            }
-////        });
-//    }
-
+    
     private ArrayList<TestQuestion> getQuestions() {
         ArrayList<TestQuestion> allTheQuestions = new ArrayList<TestQuestion>();
 
